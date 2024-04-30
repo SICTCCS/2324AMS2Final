@@ -32,14 +32,7 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.6.0/firebas
 import { getFirestore, collection, query, orderBy, limit, onSnapshot } from "https://www.gstatic.com/firebasejs/10.6.0/firebase-firestore.js";
 document.addEventListener("DOMContentLoaded", function () {
 const firebaseConfig = {
-    apiKey: "AIzaSyCH0Zyzj5tukPUZacOM_xJZk3wFLQIvgNw",
-    authDomain: "lunchbox-60fb5.firebaseapp.com",
-    databaseURL: "https://lunchbox-60fb5-default-rtdb.firebaseio.com",
-    projectId: "lunchbox-60fb5",
-    storageBucket: "lunchbox-60fb5.appspot.com",
-    messagingSenderId: "534903316915",
-    appId: "1:534903316915:web:e7b8e503540d234632ebc6",
-    measurementId: "G-TD5GSSYSSY"
+    
 };
 //initialize firebase
 const app = initializeApp(firebaseConfig);
